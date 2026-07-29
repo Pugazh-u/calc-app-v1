@@ -33,6 +33,11 @@ public class CalculationTest {
         Assertions.assertNotNull(cal, "Calculation is null");
         Assertions.assertEquals(9,cal.mul(9,1));
     }
+    @Test
+    public void testdiv(){
+        Assertions.assertNotNull(cal,"calculation is null");
+        Assertions.assertEquals(4,cal.div(16,4));
+    }
     @AfterEach
     public void tearDown() {
         cal = null;

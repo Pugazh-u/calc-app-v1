@@ -17,4 +17,8 @@ public class Calculation {
         logger.debug("Mul {} and {}",a,b);
         return a*b;
     }
+    public double div(double a,double b){
+        logger.debug("div {} and {}",a,b);
+        return a/b;
+    }
 }
