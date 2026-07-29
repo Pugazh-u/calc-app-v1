@@ -21,4 +21,5 @@ public class Calculation {
         logger.debug("div {} and {}",a,b);
         return a/b;
     }
+
 }
