@@ -10,7 +10,7 @@ public class Calculation {
         return a+b;
     }
     public double sub(double a,double b){
-        logger.debug("Sub {} and {}",a,b);
+        logger.debug("Subtract {} and {}",a,b);
         return a-b;
     }
     public double mul(double a,double b){
